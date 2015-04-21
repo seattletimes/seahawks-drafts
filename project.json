@@ -1,0 +1,12 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "apps-stage.seattletimesdata.com",
+      "path": "chaotic-behavior"
+    },
+    "live": {
+    }
+  },
+  "tags": ["sports", "seahawks", "football", "super", "bowl"],
+  "sheets": []
+}
