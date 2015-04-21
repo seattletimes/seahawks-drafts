@@ -7,7 +7,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:600,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <%= t.include("partials/_adHead.html", json.project.top) %>
+    <%= t.include("partials/_adHead.html", json.project.bottom) %>
   </head>
   <body>
 
@@ -24,7 +24,7 @@
 
         <div class="contents">
 
-          <h1><%= json.project.top.title %></h1>
+          <h1><%= json.project.bottom.title %></h1>
 
           <p>
             What's the NFL draft without a little walk down memory lane? So here are our top 10 draft picks in Seahawks history (and a reminder that these are players who were drafted by Seattle, which rules out the likes of Steve Largent, Jim Zorn and Dave Krieg). On Friday we’ll have the bottom 10 picks in Seahawks history.
@@ -46,9 +46,9 @@
 
       </header>
 
-    <% json.SeahawksDrafts_top.sort(function(a, b) { return a.order - b.order }).forEach(function(item, i) { %>
+    <% json.SeahawksDrafts_bottom.sort(function(a, b) { return a.order - b.order }).forEach(function(item, i) { %>
       <section class="parallax-play" data-index="<%= i %>">
-        <img src="../assets/top/<%= item.image %>" class="fixable">
+        <img src="../assets/bottom/<%= item.image %>" class="fixable">
         <div class="description <%= item.overlay %>">
           <h3 class="rank"><sup>#</sup><%= item.rank %>: <%= item.name %></h3>
 

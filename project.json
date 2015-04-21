@@ -9,18 +9,19 @@
       "path": ""
     }
   },
-  "tags": [],
   "production": false,
   "embedded": true,
   "sheets": ["1p9ufFz7Q7vYyWGIdDNeqqcKww8pFM4KgraFXP3_KJbI"],
   "top": {
-    "title": "",
+    "title": "Top 10 Seahawks draft picks",
     "description": "",
-    "slug": ""
+    "slug": "top-seahawks-drafts",
+    "tags": []
   },
   "bottom": {
-    "title": "",
+    "title": "Bottom 10 Seahawks draft picks",
     "description": "",
-    "slug": ""
+    "slug": "bottom-seahawks-drafts",
+    "tags": []
   }
 }
