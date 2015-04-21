@@ -7,7 +7,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:600,400' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" href="http://stmediakit.wpengine.netdna-cdn.com/wp-content/themes/stmediakit-child/webfonts.css?ver=3.9.1" type="text/css"> -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <%= t.include("partials/_adHead.html", json.project) %>
   </head>
   <body>
@@ -19,7 +19,7 @@
       <header class="intro">
         <nav class="logo-bar">
           <a class="logo" href="http://seattletimes.com">
-            <img src="./assets/st-logo.png">
+            <img src="../assets/st-logo.png">
           </a>
         </nav>
 
@@ -47,9 +47,9 @@
 
       </header>
 
-    <% csv.plays.sort(function(a, b) { return a.order - b.order }).forEach(function(play, i) { %>
+    <% json.SeahawksDrafts_top.sort(function(a, b) { return a.order - b.order }).forEach(function(play, i) { %>
       <section class="parallax-play" data-index="<%= i %>">
-        <img src="assets/<%= play.image %>" class="fixable">
+        <img src="../assets/top/<%= play.image %>" class="fixable">
         <div class="description <%= play.overlay %>">
           <h3 class="rank"><sup>#</sup><%= play.rank %>: <%= play.date %></h3>
 
@@ -94,7 +94,7 @@
       <i class="fa fa-rotate-left rotation"></i>
     </aside>
 
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
     <%= t.include("partials/_adFoot.html") %>
     <%= t.include("partials/_workHere.html") %>
   </body>
