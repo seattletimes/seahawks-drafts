@@ -11,6 +11,7 @@
   },
   "production": false,
   "embedded": true,
+  "embargo": ["bottom/*", "assets/bottom/*"],
   "sheets": ["1p9ufFz7Q7vYyWGIdDNeqqcKww8pFM4KgraFXP3_KJbI"],
   "top": {
     "title": "Top 10 Seahawks draft picks",
