@@ -1,7 +1,7 @@
 {
-  "name": "seahawks-plays",
+  "name": "seahawks-drafts",
   "version": "0.0.1",
-  "homepage": "https://github.com/seattletimes/seahawks-plays",
+  "homepage": "https://github.com/seattletimes/seahawks-drafts",
   "authors": [
     "The Seattle Times"
   ],
@@ -16,8 +16,5 @@
     "src/js/lib",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "component-responsive-frame": "~0.0.5"
-  }
+  ]
 }

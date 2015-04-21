@@ -37,8 +37,8 @@ module.exports = function(grunt) {
         key: key,
         worksheet: 1
       }, function(err, book) {
-        if (err) {
-          grunt.fail.warn("Unable to access book for " + key);
+        if (err || !book) {
+          grunt.fail.warn("Unable to access book for " + key + ", is it 'published' in Sheets?");
           return bookDone();
         }
         //download each worksheet
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
               });
               rows = obj;
             }
-            var filename = "json/" + camelCase(book.title) + "_" + camelCase(page.title) + ".json";
+            var filename = "json/" + camelCase(book.title) + "_" + camelCase(page.title) + ".sheet.json";
             grunt.file.write(filename, JSON.stringify(rows, null, 2));
             pageDone();
           });
