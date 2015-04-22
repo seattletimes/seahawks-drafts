@@ -10,8 +10,8 @@
     }
   },
   "production": false,
-  "embedded": true,
-  "embargo": ["bottom/*", "assets/bottom/*"],
+  "embedded": false,
+  "willembargo": ["bottom/*", "assets/bottom/*"],
   "sheets": ["1p9ufFz7Q7vYyWGIdDNeqqcKww8pFM4KgraFXP3_KJbI"],
   "top": {
     "url": "http://projects.seattletimes.com/2015/seahawks-drafts/top/",
