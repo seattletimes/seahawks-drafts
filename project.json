@@ -14,15 +14,17 @@
   "embargo": ["bottom/*", "assets/bottom/*"],
   "sheets": ["1p9ufFz7Q7vYyWGIdDNeqqcKww8pFM4KgraFXP3_KJbI"],
   "top": {
+    "url": "http://projects.seattletimes.com/2015/seahawks-drafts/top/",
     "title": "Top 10 Seahawks draft picks",
     "description": "",
     "slug": "top-seahawks-drafts",
-    "tags": []
+    "tags": ["sports", "seahawks", "draft"]
   },
   "bottom": {
+    "url": "http://projects.seattletimes.com/2015/seahawks-drafts/bottom/",
     "title": "Bottom 10 Seahawks draft picks",
     "description": "",
     "slug": "bottom-seahawks-drafts",
-    "tags": []
+    "tags": ["sports", "seahawks", "draft"]
   }
 }
