@@ -5,26 +5,28 @@
       "path": "contrastive-dispute"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/seahawks-drafts"
     }
   },
-  "production": false,
+  "production": true,
   "embedded": false,
-  "willembargo": ["bottom/*", "assets/bottom/*"],
+  "embargo": ["bottom/*", "assets/bottom/*"],
   "sheets": ["1p9ufFz7Q7vYyWGIdDNeqqcKww8pFM4KgraFXP3_KJbI"],
   "top": {
     "url": "http://projects.seattletimes.com/2015/seahawks-drafts/top/",
     "title": "Top 10 Seahawks draft picks",
-    "description": "",
+    "description": "Our top 10 draft picks in Seahawks history",
     "slug": "top-seahawks-drafts",
-    "tags": ["sports", "seahawks", "draft"]
+    "tags": ["sports", "seahawks", "draft"],
+    "image": "http://projects.seattletimes.com/2015/seahawks-drafts/assets/top/01Wilson.jpg"
   },
   "bottom": {
     "url": "http://projects.seattletimes.com/2015/seahawks-drafts/bottom/",
     "title": "Bottom 10 Seahawks draft picks",
-    "description": "",
+    "description": "The bottom 10 NFL draft picks in Seahawks history",
     "slug": "bottom-seahawks-drafts",
-    "tags": ["sports", "seahawks", "draft"]
+    "tags": ["sports", "seahawks", "draft"],
+    "image": "http://projects.seattletimes.com/2015/seahawks-drafts/assets/bottom/01Curry.jpg"
   }
 }
